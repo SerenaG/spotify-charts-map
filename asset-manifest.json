@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/spotify-charts-map/static/css/main.e1c84a16.chunk.css",
-    "main.js": "/spotify-charts-map/static/js/main.9df461ae.chunk.js",
-    "main.js.map": "/spotify-charts-map/static/js/main.9df461ae.chunk.js.map",
+    "main.css": "/spotify-charts-map/static/css/main.6ca53d01.chunk.css",
+    "main.js": "/spotify-charts-map/static/js/main.fdf8dfa2.chunk.js",
+    "main.js.map": "/spotify-charts-map/static/js/main.fdf8dfa2.chunk.js.map",
     "runtime-main.js": "/spotify-charts-map/static/js/runtime-main.82f5550c.js",
     "runtime-main.js.map": "/spotify-charts-map/static/js/runtime-main.82f5550c.js.map",
     "static/js/2.d18243bb.chunk.js": "/spotify-charts-map/static/js/2.d18243bb.chunk.js",
     "static/js/2.d18243bb.chunk.js.map": "/spotify-charts-map/static/js/2.d18243bb.chunk.js.map",
     "index.html": "/spotify-charts-map/index.html",
-    "precache-manifest.d4453b7174b1d2e409bf8846bcf7a121.js": "/spotify-charts-map/precache-manifest.d4453b7174b1d2e409bf8846bcf7a121.js",
+    "precache-manifest.88d8ca170d91e5d4160ec53e90739b42.js": "/spotify-charts-map/precache-manifest.88d8ca170d91e5d4160ec53e90739b42.js",
     "service-worker.js": "/spotify-charts-map/service-worker.js",
-    "static/css/main.e1c84a16.chunk.css.map": "/spotify-charts-map/static/css/main.e1c84a16.chunk.css.map",
+    "static/css/main.6ca53d01.chunk.css.map": "/spotify-charts-map/static/css/main.6ca53d01.chunk.css.map",
     "static/js/2.d18243bb.chunk.js.LICENSE.txt": "/spotify-charts-map/static/js/2.d18243bb.chunk.js.LICENSE.txt",
     "static/media/close.18445307.svg": "/spotify-charts-map/static/media/close.18445307.svg",
     "static/media/download.dbfe7e69.svg": "/spotify-charts-map/static/media/download.dbfe7e69.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.82f5550c.js",
     "static/js/2.d18243bb.chunk.js",
-    "static/css/main.e1c84a16.chunk.css",
-    "static/js/main.9df461ae.chunk.js"
+    "static/css/main.6ca53d01.chunk.css",
+    "static/js/main.fdf8dfa2.chunk.js"
   ]
 }
