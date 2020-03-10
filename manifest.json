@@ -1,0 +1,8 @@
+{
+  "short_name": "Top 10",
+  "name": "Spotify Top 10 Charts",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
