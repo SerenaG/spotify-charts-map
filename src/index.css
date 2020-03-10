@@ -39,10 +39,11 @@ html,
   align-items: center;
   height: var(--header-height);
   background-color: var(--black);
+  font-weight: 600;
 }
 
 .header-title {
-  left: 120px;
+  left: 55px;
   position: absolute;
 }
 
