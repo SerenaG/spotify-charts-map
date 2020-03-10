@@ -1,13 +1,187 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root {
+  --white: #fff;
+  --black: #000;
+  --grey: #919496;
+  --green: #1db954;
+  --header-height: 50px;
+  --padding: 0.5rem;
+  --country-stroke: 2;
+  --img-size: 150px;
+  --img-size-half: 75px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body,
+html,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: relative;
+  color: var(--white);
+  align-items: center;
+  height: var(--header-height);
+  background-color: var(--black);
+}
+
+.header-title {
+  left: 120px;
+  position: absolute;
+}
+
+.map {
+  width: 100%;
+  display: flex;
+  flex: 1 1 auto;
+  background-color: var(--black);
+}
+
+.hovered-name {
+  color: white;
+  font-size: 13px;
+  position: absolute;
+  bottom: var(--padding);
+  left: var(--padding);
+}
+
+.chart {
+  padding: 1rem;
+  display: flex;
+  font-size: 700;
+  position: absolute;
+  color: var(--white);
+  width: calc(100% - 2rem);
+  top: var(--header-height);
+  background-color: transparent;
+  background-color: rgba(0, 0, 0, 0.53);
+}
+
+.chart-image,
+.chart img {
+  width: var(--img-size);
+  height: var(--img-size);
+}
+
+.chart-list {
+  flex: 1;
+  padding: 0 var(--padding);
+}
+
+.country {
+  display: flex;
+  font-size: 30px;
+  font-weight: 600;
+  stroke-width: 0.5;
+  stroke: var(--white);
+  justify-content: space-between;
+  padding: 0 0 var(--padding) var(--padding);
+}
+
+.country--hoverable {
+  cursor: pointer;
+}
+
+.country--hoverable:hover {
+  stroke-width: var(--country-stroke);
+}
+
+.country--selected {
+  fill: var(--green);
+  stroke-width: var(--country-stroke);
+}
+
+.country a:hover,
+.track:hover {
+  color: var(--green);
+}
+
+.close-icon {
+  height: 20px;
+  cursor: pointer;
+  fill: var(--grey);
+}
+
+.close-icon:hover {
+  fill: var(--green);
+}
+
+.download-icon {
+  height: 18px;
+  padding-left: 1rem;
+  fill: var(--grey);
+}
+
+.download-icon:hover {
+  fill: var(--green);
+}
+
+.tracks {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: var(--padding);
+}
+
+.tracks-columns {
+  flex: 1;
+}
+
+.tracks .tracks-columns:nth-child(2) {
+  padding-left: 0.5rem;
+}
+
+.track {
+  display: flex;
+  padding-bottom: var(--padding);
+}
+
+.track-position {
+  font-weight: 700;
+  padding-right: var(--padding);
+}
+
+@media only screen and (max-width: 600px) {
+  .chart {
+    flex-direction: column-reverse;
+  }
+
+  .chart-image {
+    position: relative;
+    width: 100%;
+  }
+
+  .chart-image a {
+    position: absolute;
+    left: calc(50% - var(--img-size-half));
+  }
+
+  .chart-list {
+    padding-top: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .tracks-columns {
+    flex: none;
+  }
+
+  .tracks .tracks-columns:nth-child(2) {
+    padding-left: 5rem;
+  }
 }
