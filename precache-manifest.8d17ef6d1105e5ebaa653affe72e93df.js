@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "16989111420a9a59523f0df67191fed6",
+    "revision": "8f01298feba33e20abf090c63ee25a70",
     "url": "/spotify-charts-map/index.html"
   },
   {
-    "revision": "1ea43e7ccc1554ac78d0",
-    "url": "/spotify-charts-map/static/css/main.6ca53d01.chunk.css"
+    "revision": "61e67403837116fbadcb",
+    "url": "/spotify-charts-map/static/css/main.eae2873c.chunk.css"
   },
   {
     "revision": "36fb5b9315570d2c0a49",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/spotify-charts-map/static/js/2.d18243bb.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1ea43e7ccc1554ac78d0",
-    "url": "/spotify-charts-map/static/js/main.fdf8dfa2.chunk.js"
+    "revision": "61e67403837116fbadcb",
+    "url": "/spotify-charts-map/static/js/main.25ec1316.chunk.js"
   },
   {
     "revision": "63dfb3f53259ed5f88fb",
@@ -30,5 +30,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "dbfe7e691e8cda611fcf249fafa9364a",
     "url": "/spotify-charts-map/static/media/download.dbfe7e69.svg"
+  },
+  {
+    "revision": "05248004f30c480e5e0c5d78d71dbc52",
+    "url": "/spotify-charts-map/static/media/headphones.05248004.svg"
   }
 ]);
